@@ -36,7 +36,6 @@ import type {
 } from "./schema/v3/charge_points";
 
 import type { EvnexV3APIResponse } from "./schema/v3/generic";
-import { process } from "zod/v4/core";
 
 const BASE_URL = "https://client-api.evnex.io";
 const DEFAULT_USER_POOL_ID = "ap-southeast-2_zWnqo6ASv";
