@@ -1,5 +1,9 @@
 {
   "name": "typescript-evnex",
+  "author": "Ben Lawrence",
+  "description": "A TypeScript library for interacting with the Evnex API",
+  "license": "MIT",
+  "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -9,6 +13,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.1000.0",
     "axios": "^1.13.6",
     "zod": "^4.3.6"
   }
