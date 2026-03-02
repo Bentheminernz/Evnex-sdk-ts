@@ -5,7 +5,9 @@
     "allowImportingTsExtensions": false,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
-  "exclude": ["examples"]
+  "include": ["src"],
+  "exclude": ["examples", "dist"]
 }
